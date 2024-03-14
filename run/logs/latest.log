@@ -1,0 +1,70 @@
+[22:22:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:22:03] [ServerMain/INFO]: Loaded 1174 recipes
+[22:22:03] [ServerMain/INFO]: Loaded 1271 advancements
+[22:22:04] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[22:22:04] [Server thread/INFO]: Loading properties
+[22:22:04] [Server thread/INFO]: This server is running Paper version git-Paper-450 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 62b220a)
+[22:22:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:22:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:22:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[22:22:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[22:22:05] [Server thread/INFO]: Default game type: SURVIVAL
+[22:22:05] [Server thread/INFO]: Generating keypair
+[22:22:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:22:05] [Server thread/INFO]: Using default channel type
+[22:22:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:22:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:22:05] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'wild2' for files 'C:\Users\Zyb3rWolfi\Desktop\wild2\build\libs\wild2-1.0-SNAPSHOT.jar' and 'plugins\wild2-1.0-SNAPSHOT.jar' in 'plugins'
+[22:22:05] [Server thread/INFO]: [wild2] Loading server plugin wild2 v1.0-SNAPSHOT
+[22:22:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:22:05] [Server thread/INFO]: Preparing level "world"
+[22:22:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:22:06] [Server thread/INFO]: Time elapsed: 251 ms
+[22:22:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:22:06] [Server thread/INFO]: Time elapsed: 137 ms
+[22:22:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:22:06] [Server thread/INFO]: Time elapsed: 32 ms
+[22:22:06] [Server thread/INFO]: [wild2] Enabling wild2 v1.0-SNAPSHOT
+[22:22:06] [Server thread/INFO]: Running delayed init tasks
+[22:22:06] [Server thread/INFO]: Done (2.741s)! For help, type "help"
+[22:22:06] [Server thread/INFO]: Timings Reset
+[22:22:26] [User Authenticator #0/INFO]: UUID of player Zyb3rWolfi is 00dd8488-d8d2-4877-89a0-719eee9085b3
+[22:22:26] [Server thread/INFO]: Zyb3rWolfi joined the game
+[22:22:26] [Server thread/INFO]: Zyb3rWolfi[/25.42.102.254:53300] logged in with entity id 222 at ([world]162.67440899081515, 79.0, 274.24971012850364)
+[22:22:29] [Server thread/INFO]: Zyb3rWolfi issued server command: /wild
+[22:22:31] [Server thread/WARN]: Zyb3rWolfi moved too quickly! 0.0,-41.85558683112156,0.0
+[22:23:48] [Server thread/INFO]: Zyb3rWolfi issued server command: /wild
+[22:23:48] [Server thread/WARN]: Zyb3rWolfi moved too quickly! -406.79083532642017,36.0,687.8749063438565
+[22:25:25] [Server thread/INFO]: Zyb3rWolfi issued server command: /wild
+[22:25:25] [Server thread/WARN]: Zyb3rWolfi moved too quickly! -977.5487271195881,136.1389995771037,-593.4067458937411
+[22:25:32] [Server thread/INFO]: Zyb3rWolfi lost connection: Disconnected
+[22:25:32] [Server thread/INFO]: Zyb3rWolfi left the game
+[22:25:38] [Server thread/INFO]: Stopping the server
+[22:25:38] [Server thread/INFO]: Stopping server
+[22:25:38] [Server thread/INFO]: [wild2] Disabling wild2 v1.0-SNAPSHOT
+[22:25:38] [Server thread/INFO]: Saving players
+[22:25:38] [Server thread/INFO]: Saving worlds
+[22:25:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:25:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:25:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:25:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:25:40] [Server thread/INFO]: [ChunkHolderManager] Saved 1202 block chunks, 727 entity chunks, 0 poi chunks in world 'world' in 1.80s
+[22:25:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:25:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:25:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:25:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:25:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:25:41] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.55s
+[22:25:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:25:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:25:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:25:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:25:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:25:41] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.13s
+[22:25:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:25:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:25:41] [Server thread/INFO]: Flushing Chunk IO
+[22:25:41] [Server thread/INFO]: Closing Thread Pool
+[22:25:41] [Server thread/INFO]: Closing Server
