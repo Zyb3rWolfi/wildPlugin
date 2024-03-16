@@ -1,14 +1,11 @@
-package io.guthub.zyb3rwolfi.wild2;
+package io.github.zyb3rwolfi.wildtp;
 
-import org.bukkit.event.EventPriority;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
 
-import javax.annotation.OverridingMethodsMustInvokeSuper;
+public final class WildTp extends JavaPlugin {
 
-public final class Wild2 extends JavaPlugin {
-
-    public static Wild2 instance;
+    public static WildTp instance;
     @Override
     public void onEnable() {
         // Plugin startup logic
@@ -31,7 +28,7 @@ public final class Wild2 extends JavaPlugin {
         // Plugin shutdown logic
         instance = null;
     }
-    public static Wild2 getInstance() {
+    public static WildTp getInstance() {
         return instance;
     }
 }

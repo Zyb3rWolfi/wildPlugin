@@ -1,7 +1,5 @@
-package io.guthub.zyb3rwolfi.wild2;
+package io.github.zyb3rwolfi.wildtp;
 
-import net.kyori.adventure.title.Title;
-import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -14,7 +12,6 @@ import org.bukkit.scheduler.BukkitScheduler;
 import org.bukkit.scheduler.BukkitTask;
 
 
-import java.awt.*;
 import java.util.Random;
 
 public class WildCommand  implements CommandExecutor {
@@ -58,7 +55,7 @@ public class WildCommand  implements CommandExecutor {
         }
 
         // Running the task
-        teleportTask = scheduler.runTaskLater(Wild2.getInstance(), ()-> teleportPlayer(world, player), this.timeout * 20);
+        teleportTask = scheduler.runTaskLater(WildTp.getInstance(), ()-> teleportPlayer(world, player), this.timeout * 20);
 
         return true;
     }

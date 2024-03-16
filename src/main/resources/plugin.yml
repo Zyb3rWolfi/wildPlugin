@@ -1,6 +1,6 @@
 name: wildtp
 version: '${version}'
-main: io.guthub.zyb3rwolfi.wild2.Wild2
+main: io.github.zyb3rwolfi.wildtp.WildTp
 api-version: '1.20'
 
 commands:
